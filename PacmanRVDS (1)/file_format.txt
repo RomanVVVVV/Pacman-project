@@ -1,0 +1,32 @@
+Steps file format:
+
+TimePoint P_ 0_ 1_ 2_ 3_ F_ V_
+
+_ is for Direction:
+D-Down
+U-UP
+R-RIGHT
+L-LEFT
+S-STAY
+0/1/2/3 represents the ghosts
+F-Fruit
+V-fruit visibility
+_ after V is +/- represnts his visibility
+
+Every line starts with the relavent
+TimePoint .
+only TimePoints at which directions were changed are written.
+and only the creauturs that made a 
+change in the specific TimePoint 
+are written by the order above.
+
+Result file format:
+
+TimePoint at which pacman was eaten (up to 3 times per sceen)
+
+score
+ 
+each screen has only relevant result info.
+
+
+
